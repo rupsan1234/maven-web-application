@@ -1,2 +1,2 @@
-FROM tomcat:8.0.21-jre8
+FROM sanjibd/tomcat1:8-alpine-jdk
 COPY target/maven-web-application.war /usr/local/tomcat/webapps/maven-web-application.war
